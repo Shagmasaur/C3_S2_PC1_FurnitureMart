@@ -1,0 +1,14 @@
+C:\Users\91994\.jdks\openjdk-18.0.1.1\bin\java.exe -javaagent:C:\Users\91994\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\222.3345.118\lib\idea_rt.jar=57382:C:\Users\91994\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\222.3345.118\bin -Dfile.encoding=UTF-8 -classpath "E:\Java\COURSE 3\C3_S2_PC1_FurnitureMart\out\production\C3_S2_PC1_FurnitureMart" FurnitureItemImpl
+Enter the type of furniture
+stool
+Product code is 1234
+Enter the usage of furniture
+outdoor
+Enter the color
+blue
+Enter the grade
+1
+Price of product is 600
+Price after Discount is 570.0
+
+Process finished with exit code 0

@@ -14,7 +14,7 @@ public class FurnitureItem
         gradeOfFurniture = 0;
         color = "";
         furnitureUsage = "";
-        price = 0.0;
+        price = 600.0;
 
     }
 
