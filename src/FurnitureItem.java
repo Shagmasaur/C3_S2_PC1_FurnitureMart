@@ -2,7 +2,7 @@ public class FurnitureItem
 {
     int furnitureCode;
     String furnitureType;
-    String gradeOfFurniture;
+    int gradeOfFurniture;
     String color;
     String furnitureUsage;
     double price;
@@ -11,25 +11,16 @@ public class FurnitureItem
     {
         furnitureCode = 0;
         furnitureType = "";
-        gradeOfFurniture = "";
+        gradeOfFurniture = 0;
         color = "";
         furnitureUsage = "";
         price = 0.0;
 
     }
 
-    public double calculateDiscount(double price)
+    public double calculateDiscount()
     {
-        double Discount=0;
-        if(furnitureUsage=="Outdoors")
-        {
-            Discount=price*5/100;
-        }
-        else
-        {
-            System.out.println("No discount for indoor furniture");
-        }
-        return Discount;
+        return price-0.05*price;
     }
 
 }
